@@ -1,0 +1,60 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+body {
+	background-color:#0A2A29;
+	font-family:Robot Slang;
+	font-size:30px;
+	color:#FFFFFF;
+}
+
+p{
+	color:#FFFFFF;
+	font-size:40px;
+	font-family:Roboto Slang;
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 5px solid black;
+}
+
+.image-caption {
+  font-size: 18px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+.previous, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.previous {
+  left: -50px;
+}
+
+.next {
+  right: -50px;
+}
